@@ -12,8 +12,7 @@ namespace fizzbuzz
                 int Fizz = i % 3;
                 int Buzz = i % 5;
 
-                if(Fizz == 0 && Buzz ==0)
-                {
+                if(Fizz == 0 && Buzz ==0){
                     Console.WriteLine("FizzBuzz");
                 }
                 else if(Fizz == 0){
