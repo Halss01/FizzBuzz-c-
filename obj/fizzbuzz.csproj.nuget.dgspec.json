@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\plocha\\visual studio\\fizzbuzz\\fizzbuzz.csproj": {}
+    "E:\\plocha\\visual studio\\fizzbuzz\\FizzBuzz\\fizzbuzz.csproj": {}
   },
   "projects": {
-    "E:\\plocha\\visual studio\\fizzbuzz\\fizzbuzz.csproj": {
+    "E:\\plocha\\visual studio\\fizzbuzz\\FizzBuzz\\fizzbuzz.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\plocha\\visual studio\\fizzbuzz\\fizzbuzz.csproj",
+        "projectUniqueName": "E:\\plocha\\visual studio\\fizzbuzz\\FizzBuzz\\fizzbuzz.csproj",
         "projectName": "fizzbuzz",
-        "projectPath": "E:\\plocha\\visual studio\\fizzbuzz\\fizzbuzz.csproj",
+        "projectPath": "E:\\plocha\\visual studio\\fizzbuzz\\FizzBuzz\\fizzbuzz.csproj",
         "packagesPath": "C:\\Users\\Halss01\\.nuget\\packages\\",
-        "outputPath": "E:\\plocha\\visual studio\\fizzbuzz\\obj\\",
+        "outputPath": "E:\\plocha\\visual studio\\fizzbuzz\\FizzBuzz\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Halss01\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -37,6 +37,20 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.10.0-release-20210429-01, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.4.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

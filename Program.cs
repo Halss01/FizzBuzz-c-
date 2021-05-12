@@ -2,13 +2,13 @@
 
 namespace fizzbuzz
 {
-    class Program
+    public class Program
     {
-        static string unit(int i){
+        public static string unit(int i){
             int Fizz = i % 3;
             int Buzz = i % 5;
                 
-            if(Fizz == 0 && Buzz ==0){
+            if(Fizz == 0 && Buzz == 0){
                 return "FizzBuzz";
             }
             else if(Fizz == 0){
