@@ -22,17 +22,24 @@ namespace fizzbuzz
             }
         }
 
-        static void Main(string[] args)
-        {
-            for(int  i = 1; i < 101; i++)
-            {
-                Console.WriteLine(unit(i));
-
+         static void Main(string[] args)
+        {  
+            Console.WriteLine("Zadej číslo od 1 od 100 nebo all aby se spustil program.");
+            String input = Console.ReadLine();
+            int number;
+            if(input == "all"){
+                for(int  i = 1; i < 101; i++)
+                {
+                    Console.WriteLine(unit(i));
+                }
+            }
+            else if(int.TryParse(input, out number) && number > 1 && number < 100){
+                Console.WriteLine(unit(number));
+            }
+            else{
+                Console.WriteLine("Špatně zadaná hodnota.");
             }
         }
-
-
-
     }
 
 }
