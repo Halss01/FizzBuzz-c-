@@ -1,11 +1,13 @@
 using Xunit;
+using System;
 
     public class FizzBuzzTest 
 {
     [Fact]
     public void FizzBuzz()
     {
-
-        Assert.Equal("FizzBuzz", fizzbuzz.Program.unit(15));
+        String input1 = Console.ReadLine();
+        
+        Assert.Equal(input1, fizzbuzz.Program.unit(15));
     }
 }
